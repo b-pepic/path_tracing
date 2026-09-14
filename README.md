@@ -80,10 +80,3 @@ Emisivni materijali (`emission > 0`) su izvori svjetla; u sceni je to svjetleca 
 
 8. **Zavrsna obrada** - uzorci se usrednje i primijeni se gamma korekcija (2.2),
    bez koje slika izgleda pretamno.
-
-## Zastoj na koji treba paziti
-
-Direktno svjetlo u difuznoj grani nije skalirano s `lobe_sum`. Dok svi materijali
-imaju `kd + ks + kt = 1` (kao u trenutnoj sceni) rezultat je tocan, ali kod
-materijala s apsorpcijom direktna komponenta bi bila presvijetla. Ispravak je
-mnozenje poziva `direct_lighting(...)` s `lobe_sum`.

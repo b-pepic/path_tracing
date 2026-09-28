@@ -4,6 +4,9 @@ Jednostavan path tracer u C++17 koji renderira scenu sa sferama i ravninom,
 s podrskom za difuzne, zrcalne i providne (staklene) materijale. Izlaz je
 PPM slika (`out.ppm`).
 
+<img width="1280" height="960" alt="out" src="https://github.com/user-attachments/assets/044aab3c-dd3c-4986-baf7-6640f2607970" />
+
+
 ## Kompajliranje i pokretanje
 
 ```bash
